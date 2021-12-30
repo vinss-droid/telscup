@@ -1,0 +1,229 @@
+/* Global */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn:active:focus:not(:disabled):not(.disabled),
+.btn:focus,
+.btn:active,
+.btn:hover {
+    box-shadow: none !important;
+    outline: 0;
+    fill: #6A54F7;
+}
+
+.form-control:hover,
+.form-control:focus,
+.form-control:active,
+.form-control:active:focus:not(:disabled):not(.disabled),
+.form-control:focus,
+.form-control:active,
+.form-control:hover {
+    box-shadow: none !important;
+    outline: 0;
+    fill: #6A54F7;
+}
+
+::selection {
+    background-color: rgba(0, 0, 0, 0.63);
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: rgb(14, 78, 119);
+    background: linear-gradient(174deg, rgba(14, 78, 119, 1) 0%, rgba(25, 25, 25, 0.9612219887955182) 100%);
+}
+
+::-webkit-scrollbar-track {
+    border: 5px solid #ddd;
+    box-shadow: inset 0 0 15px rgb(141, 134, 134);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(14, 78, 119);
+    border-radius: 25px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.bg-main-dark {
+    background-color: rgba(22, 21, 21, 0.644);
+}
+
+.pt-cs-1 {
+    padding-top: 80px !important;
+}
+
+
+
+/* Home */
+
+.btn-masuk {
+    background-color: #0e4e77;
+    color: #fff;
+    border-radius: 30px;
+    width: 150px;
+}
+
+.btn-masuk:hover {
+    color: #ddd;
+}
+
+.logo-nav {
+    position: fixed;
+    width: 10%;
+    top: 2px;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+}
+
+.welcome {
+    /* background: rgb(67,52,227);
+    background: linear-gradient(157deg, rgba(67,52,227,1) 0%, rgba(146,45,185,1) 100%); */
+    background: rgb(14, 78, 119);
+    background: linear-gradient(174deg, rgba(14, 78, 119, 1) 0%, rgba(25, 25, 25, 0.9612219887955182) 100%);
+    background-repeat: no-repeat;
+}
+
+.dLomba {
+    width: auto;
+    margin: 0 auto 0 auto;
+    color: #fff;
+    font-size: 18px;
+}
+
+.dLomba:hover {
+    color: #ddd;
+}
+
+/* Cara - Daftar */
+/* .cara-daftar {
+    background: rgb(25,25,25);
+    background: linear-gradient(180deg, rgba(25,25,25,0.96) 0%, rgba(14,78,119,1) 100%);
+} */
+
+
+/* Daftar Lomba */
+.row-lomba {
+    margin-top: 6%;
+}
+
+.input-group-text {
+    background-color: #fff !important;
+    border: none !important;
+}
+
+.form-control {
+    border: none !important;
+}
+
+.search-input {
+    border-radius: 30px 0 0 30px;
+}
+
+.search-label {
+    border-radius: 0 30px 30px 0;
+}
+
+.card-lmb {
+    background: transparent;
+    border: none !important;
+}
+
+.link:hover {
+    opacity: 1 !important;
+    font-weight: bold;
+}
+
+.biaya {
+    color: rgb(0, 255, 0);
+}
+
+
+/* Support */
+.bg-sp {
+    background-color: #0e4e77;
+    /* opacity: 10px; */
+}
+
+.h-op {
+    opacity: 0.2;
+}
+
+.h-op:hover {
+    opacity: unset !important;
+    transition: all 0.5s;
+}
+
+/* Footer */
+.sosmed-ft {
+    padding-right: 1%;
+}
+
+/* Login Page */
+
+.border-2 {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    /* opacity: 0.5; */
+}
+
+.border-input {
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 30px;
+    background: none;
+    /* width: 150px; */
+}
+
+.wall-section {
+    /* margin: 32px 86px; */
+    /* border: 2px solid #fff; */
+    color: #fff;
+}
+
+.wall-section::after::before {
+    box-sizing: border-box;
+}
+
+.btn-login {
+    background: linear-gradient(180deg, #00d563, #00a64d);
+    color: #fff;
+    border-radius: 30px;
+    width: 150px;
+}
+
+.btn-login:hover {
+    color: #fff;
+    opacity: 0.8;
+}
+
+.btn-daftar {
+    background: linear-gradient(180deg, #3b8ae7, #195ca9), linear-gradient(180deg, #00d563, #00a64d);
+    color: #fff;
+    border-radius: 30px;
+    width: 150px;
+}
+
+.btn-daftar:hover {
+    color: #fff;
+    opacity: 0.8;
+}
+
+/* PENDAFTARAN PAGE */
+.pendaftaran {
+    padding-top: 10%;
+}
